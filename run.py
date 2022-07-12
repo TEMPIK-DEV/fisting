@@ -1,3 +1,31 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@TEMPIK-DEV 
+TEMPIK-DEV
+/
+fisting
+Private
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Settings
+fisting/run.py /
+@TEMPIK-DEV
+TEMPIK-DEV Update run.py
+Latest commit 7edc897 14 days ago
+ History
+ 1 contributor
+776 lines (715 sloc)  32.2 KB
+
 # coding:utf-8
 #/usr/bin/python
 try:
@@ -63,7 +91,7 @@ U='\033[1;35m' #UNGU
 O='\033[38;2;255;127;0;1m' #ORANGE
 C='\033[0m' #CLEAR
 N = '\x1b[0m' # WARNA MATI
-USN="Mozilla/5.0 (Linux; Android 7.0; SM-G935F Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 Mobile Safari/537.36 Instagram 42.0.0.19.95 Android (24/7.0; 480dpi; 1080x1920; samsung; SM-G935F; hero2lte; samsungexynos8890; ru_RU; 104766900)"
+USN="Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.106 Mobile Safari/537.36 Instagram 41.0.0.13.92 Android (24/7.0; 320dpi; 720x1280; samsung; SM-J710F; j7xelte; samsungexynos7870; ru_RU; 103516660)"
 # USN="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
 ugen=open('ua.txt','r').read().splitlines()
 internal,external,success,checkpoint,loop,following,lisensikuni,lisensiku=[],[],[],[],0,[],[],['sukses']
@@ -773,4 +801,17 @@ if __name__=='__main__':
         lisensi()
     except requests.exceptions.ConnectionError:
         exit(f'\n [{M}!{C}] Koneksi internet bermasalah')
-
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
