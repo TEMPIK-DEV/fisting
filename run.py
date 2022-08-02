@@ -517,7 +517,7 @@ class instagram:
             crf_token=re.findall(r"\"csrf_token\"\:\"(.*?)\"", str(token))[0]
             s.headers.update({
                 'authority': 'www.instagram.com',
-                'x-ig-www-claim': 'hmac.AR2r6pPro8jlPDMsA0gzd8rwdra1OfG65OCYTIHs7cCLkzw0',
+                'x-ig-www-claim': 'hmac.AR3Z_YdqK9oNdrHk8RO50TVdpt1fQ2s5zPacsp7IB5SSUFGQ',
                 'x-instagram-ajax': '82a581bb9399',
                 'content-type': 'application/x-www-form-urlencoded',
                 'accept': '*/*',
