@@ -63,7 +63,7 @@ U='\033[1;35m' #UNGU
 O='\033[38;2;255;127;0;1m' #ORANGE
 C='\033[0m' #CLEAR
 N = '\x1b[0m' # WARNA MATI
-USN="Mozilla/5.0 (Linux; Android 12; SM-G991B Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/96.0.4664.92 Mobile Safari/537.36 Instagram 215.0.0.27.359 Android (31/12; 480dpi; 1080x2176; samsung; SM-G991B; o1s; exynos2100; ru_RU; 337202359)"
+USN="Mozilla/5.0 (Linux; Android 12; Pixel 3 Build/SP1A.210812.015; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/96.0.4664.92 Mobile Safari/537.36 Instagram 215.0.0.27.359 Android (31/12; 540dpi; 1080x2028; Google/google; Pixel 3; blueline; blueline; en_US; 337202359)"
 # USN="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
 ugen=open('ua.txt','r').read().splitlines()
 internal,external,success,checkpoint,loop,following,lisensikuni,lisensiku=[],[],[],[],0,[],[],['sukses']
@@ -696,7 +696,7 @@ def lisensi():
     except:
         tlisensi()
     ses=requests.Session()
-    res=ses.get('https://app.cryptolens.io/api/key/Activate?token=WyIyMzU4NjUxMCIsIlRMSVY3Mk52YXQ1Ym16WG1PUy9jelNVbEx1UmppTWlLSDkzaTFWM1IiXQ==&ProductId=16355&Key='+lisensikuni[0]).json()
+    res=ses.get('https://app.cryptolens.io/api/key/Activate?token=WyIyNTUxNDA2MCIsImI1ZVlwSXd3bkptZ0xvSS9TcWJLVEhQWmxZdzRrUkU1RVFsQVJVUXciXQ==&ProductId=16754&Key='+lisensikuni[0]).json()
     status=res['licenseKey']['key']
     if status ==cek:
         banner()
